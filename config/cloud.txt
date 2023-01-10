@@ -1,0 +1,7 @@
+nohup sudo java -jar cv-report-api.jar > output.log &
+#prosess list
+ps -ef
+kill pid
+
+#see file
+tail - f filename
